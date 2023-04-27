@@ -4,10 +4,9 @@ import Friend from '../Friend/Friend';
 
 const Friends = () => {
     const friends = useLoaderData();
-    console.log(friends)
     return (
         <div>
-            <h2>Buddy List {friends.length}</h2>
+            <h2>Buddy List :{friends.length} persons</h2>
             {
                 friends.map(friend => <Friend
                     key={friend.id}

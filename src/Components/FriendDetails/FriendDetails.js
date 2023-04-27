@@ -6,8 +6,8 @@ const FriendDetails = () => {
     return (
         <div>
             <h1>Details About: {friend.name}</h1>
-            <p>Call him/her: {friend.phone}</p>
-            <h2>Everything you need to know about this person</h2>
+            <p>Contact{friend.phone}</p>
+            <h2>Personal info</h2>
         </div>
     );
 };
